@@ -1,0 +1,44 @@
+﻿@page
+@model Announcement_web_service.Pages.EditModel
+@{
+    ViewData["Title"] = "Edit Announcement";
+}
+
+<h1 class="text-info">Edit Announcement</h1>
+<br />
+
+<div class="border container p-3" style="padding: 30px;">
+    <form method="post">
+        <input type="hidden" asp-for="Announcement.Id" />
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Announcement.Tittle"></label>
+            </div>
+            <div class="col-6">
+                <input asp-for="Announcement.Tittle" class="form-control" />
+            </div>
+            <span asp-validation-for="Announcement.Tittle" class="text-danger"></span>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Announcement.Description"></label>
+            </div>
+            <div class="col-6">
+                <textarea rows="4" asp-for="Announcement.Description" class="form-control"></textarea>
+            </div>
+            <span asp-validation-for="Announcement.Description" class="text-danger"></span>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3 offset-3">
+                <input type="submit" value="Update" class="btn btn-primary form-control" />
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back to main page</a>
+            </div>
+
+        </div>
+    </form>
+</div>
+

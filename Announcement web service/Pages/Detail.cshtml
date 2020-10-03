@@ -1,0 +1,51 @@
+﻿@page
+@model Announcement_web_service.Pages.DetailModel
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1 class="text-info">Announcement details</h1>
+<br />
+
+<div class="border container p-3" style="padding: 30px;">
+    <form>
+        <input type="hidden" asp-for="Announcement.Id" />
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Announcement.Tittle"></label>
+            </div>
+            <div class="col-6">
+                <span>@Model.Announcement.Tittle</span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label asp-for="Announcement.Description"></label>
+            </div>
+            <div class="col-6">
+                <span>@Model.Announcement.Description</span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-3">
+                <label>Date Added</label>
+            </div>
+            <div class="col-6">
+                <span>@Model.Announcement.DateAdded</span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-3 offset-3">
+                <a asp-route-id="@Model.Announcement.Id" asp-page="Edit" class="btn btn-primary form-control">Edit</a>
+            </div>
+            <div class="col-3">
+                <a asp-page="Index" class="btn btn-success form-control">Back to main page</a>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+
+
