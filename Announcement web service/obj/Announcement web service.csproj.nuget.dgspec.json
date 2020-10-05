@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\StudyProjects\\Announcement web service test — копия\\Announcement web service\\Announcement web service.csproj": {}
+    "D:\\StudyProjects\\Announcement web service\\Announcement web service\\Announcement web service.csproj": {}
   },
   "projects": {
-    "D:\\StudyProjects\\Announcement web service test — копия\\Announcement web service\\Announcement web service.csproj": {
+    "D:\\StudyProjects\\Announcement web service\\Announcement web service\\Announcement web service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StudyProjects\\Announcement web service test — копия\\Announcement web service\\Announcement web service.csproj",
+        "projectUniqueName": "D:\\StudyProjects\\Announcement web service\\Announcement web service\\Announcement web service.csproj",
         "projectName": "Announcement web service",
-        "projectPath": "D:\\StudyProjects\\Announcement web service test — копия\\Announcement web service\\Announcement web service.csproj",
+        "projectPath": "D:\\StudyProjects\\Announcement web service\\Announcement web service\\Announcement web service.csproj",
         "packagesPath": "C:\\Users\\vital\\.nuget\\packages\\",
-        "outputPath": "D:\\StudyProjects\\Announcement web service test — копия\\Announcement web service\\obj\\",
+        "outputPath": "D:\\StudyProjects\\Announcement web service\\Announcement web service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vital\\AppData\\Roaming\\NuGet\\NuGet.Config",
